@@ -1,0 +1,18 @@
+[
+{
+  "modid": "CyanLeaf",
+  "name": "Cyan Leaf",
+  "description": "A Cyan Leaf mod for Minecraft",
+  "credits": "CyanMarshmellow",
+  "logoFile": "",
+  "version": "1.0",
+  "mcversion": "1.7.10",
+  "url": "",
+  "updateUrl": "",
+  "authorList": [ "Natsumi2813", "orrikorri" ],
+  "screenshots": [ ],
+  "dependencies": [
+     "mod_MinecraftForge"
+  ]
+}
+]

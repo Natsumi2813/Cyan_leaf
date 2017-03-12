@@ -8,5 +8,6 @@ public class BlockCyanFlag extends BlockCL {
     {
         super();
         this.setBlockName("cyanFlag");
+        this.setBlockName("cyanFlag");
     }
 }
