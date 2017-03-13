@@ -10,7 +10,7 @@ import java.io.File;
 /**
  * Created by new pc on 12/03/2017.
  */
-public class ConfiguratiomHandler {
+public class ConfigurationHandler {
     public static Configuration configuration;
     public static boolean testValue = false;
 

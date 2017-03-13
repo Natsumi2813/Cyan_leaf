@@ -1,8 +1,5 @@
 package net.ragnars.cyanleaf.reference;
 
-/**
- * Created by new pc on 12/03/2017.
- */
 public class Reference {
     public static final String MOD_ID = "CyanLeaf";
     public static final String MOD_NAME = "Cyan Leaf";
