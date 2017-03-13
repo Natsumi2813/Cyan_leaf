@@ -7,5 +7,6 @@ public class ItemCyanLeaf extends ItemCL {
     public ItemCyanLeaf(){
         super();
         this.setUnlocalizedName("cyanLeaf");
+        this.maxStackSize = 16;
     }
 }

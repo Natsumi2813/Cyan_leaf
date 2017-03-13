@@ -14,6 +14,7 @@ public class ItemCL extends Item
     {
         super();
         this.setCreativeTab(CreativeTabCL.CL_TAB);
+        this.maxStackSize = 1;
     }
 
     @Override
