@@ -1,5 +1,6 @@
 package net.ragnars.cyanleaf;
 
+import cpw.mods.fml.common.FMLCommonHandler;
 import net.ragnars.cyanleaf.handler.ConfigurationHandler;
 
 import cpw.mods.fml.common.Mod;
@@ -8,6 +9,7 @@ import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import net.ragnars.cyanleaf.init.ModBlocks;
 import net.ragnars.cyanleaf.init.ModItems;
+import net.ragnars.cyanleaf.init.Recipes;
 import net.ragnars.cyanleaf.reference.Reference;
 import net.ragnars.cyanleaf.utility.LogHelper;
 
@@ -22,6 +24,7 @@ public class CyanLeaf
      public void preInit(FMLPreInitializationEvent event)
      {
          ConfigurationHandler.init(event.getSuggestedConfigurationFile());
+         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
 
          ModItems.init();
 
@@ -33,6 +36,7 @@ public class CyanLeaf
      @Mod.EventHandler
      public void init(FMLInitializationEvent event)
      {
+         Recipes.init();
          LogHelper.info("Initialization Complete!");
      }
 
