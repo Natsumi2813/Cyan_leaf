@@ -5,17 +5,15 @@ import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.ragnars.cyanleaf.creativetab.CreativeTabCL;
 import net.ragnars.cyanleaf.reference.Reference;
 
-/**
- * Created by new pc on 12/03/2017.
- */
 public class ItemCL extends Item
 {
     public ItemCL()
     {
         super();
-        //this.setCreativeTab(CreativeTabLMRB.LMRB_TAB);
+        this.setCreativeTab(CreativeTabCL.CL_TAB);
     }
 
     @Override

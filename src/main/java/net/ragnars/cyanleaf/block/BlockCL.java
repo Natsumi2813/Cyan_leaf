@@ -5,6 +5,7 @@ import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IIconRegister;
+import net.ragnars.cyanleaf.creativetab.CreativeTabCL;
 import net.ragnars.cyanleaf.reference.Reference;
 
 /**
@@ -15,7 +16,7 @@ public class BlockCL extends Block
     public BlockCL(Material material)
     {
         super(material);
-        //this.setCreativeTab(CreativeTabLMRB.LMRB_TAB);
+        this.setCreativeTab(CreativeTabCL.CL_TAB);
     }
 
     public BlockCL()
